@@ -1,0 +1,7 @@
+@import './uswdsImports.scss';
+
+.Test {
+  color: $theme-color-base-darkest;
+  padding: units(2);
+  @include u-bg($theme-color-accent-warm-darker);
+}
